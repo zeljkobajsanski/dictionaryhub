@@ -1,0 +1,15 @@
+<div>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li [class.active]="tabPage.isActive" *ngFor="let tabPage of tabPages" (click)="selectTab(tabPage)">
+      <a data-toggle="tab" href="#">
+        {{tabPage.title}}
+      </a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <ng-content></ng-content>
+  </div>
+</div>

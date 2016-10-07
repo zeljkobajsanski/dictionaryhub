@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col-md-12">
+        <form class="form-inline" role="form" (ngSubmit)="search(term.value)">
+            <label class="sr-only" for="">label</label>
+            <input type="text" class="form-control" id="" placeholder="Enter word..." #term>
+            <button type="submit" class="btn btn-primary">
+                <i class="fa" [ngClass]="{'fa-search': !isBusy, 'fa-spinner': isBusy, 'fa-spin': isBusy}"></i> Search
+            </button>
+        </form>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <tabs #tabs>
+            <tab-page *ngFor="let result of results" [title]="result.Dictionary">
+                <card>
+                    <span class="pull-right">
+                        <button class="btn btn-inverse">
+                            <i class="fa fa-star text-warning"></i> Add to collection
+                        </button>
+                        
+                        <a [href]="result.Source" target="_blank">Go to webiste</a>
+                    </span>
+                    <div [innerHTML]="result.Content"></div>
+                </card>
+            </tab-page>
+        </tabs>
+    </div>
+</div>

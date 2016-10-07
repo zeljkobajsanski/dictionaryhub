@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryHub.Web", "DictionaryHub.Web\DictionaryHub.Web.csproj", "{3A9195B1-8504-4C7C-993B-A9A90612334E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryHub.Core", "DictionaryHub.Core\DictionaryHub.Core.csproj", "{3D0D39DC-772D-4451-B8AA-9B4CC9BDDD53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryHub.CLI", "DictionaryHub.CLI\DictionaryHub.CLI.csproj", "{C4CF3B85-1F42-4840-8CB9-E7E69B3E3A96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A9195B1-8504-4C7C-993B-A9A90612334E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9195B1-8504-4C7C-993B-A9A90612334E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9195B1-8504-4C7C-993B-A9A90612334E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9195B1-8504-4C7C-993B-A9A90612334E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0D39DC-772D-4451-B8AA-9B4CC9BDDD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0D39DC-772D-4451-B8AA-9B4CC9BDDD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0D39DC-772D-4451-B8AA-9B4CC9BDDD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0D39DC-772D-4451-B8AA-9B4CC9BDDD53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CF3B85-1F42-4840-8CB9-E7E69B3E3A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CF3B85-1F42-4840-8CB9-E7E69B3E3A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CF3B85-1F42-4840-8CB9-E7E69B3E3A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CF3B85-1F42-4840-8CB9-E7E69B3E3A96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
