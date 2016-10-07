@@ -48,6 +48,7 @@
     <Compile Include="Contracts\ISearcher.cs" />
     <Compile Include="Impl\DictionaryBase.cs" />
     <Compile Include="Impl\DictionaryCollection.cs" />
+    <Compile Include="Impl\GoogleTranslate.cs" />
     <Compile Include="Impl\MerriamWebster.cs" />
     <Compile Include="Impl\OnlineRecnik.cs" />
     <Compile Include="Impl\Searcher.cs" />

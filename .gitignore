@@ -4,3 +4,5 @@
 /DictionaryHub.Core/bin
 /packages
 /DictionaryHub.v12.suo
+/.vs/DictionaryHub2015/v14/*.suo
+/.vs/config/applicationhost.config

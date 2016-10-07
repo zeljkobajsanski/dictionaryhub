@@ -2,8 +2,8 @@
     <div class="col-md-12">
         <form class="form-inline" role="form" (ngSubmit)="search(term.value)">
             <label class="sr-only" for="">label</label>
-            <input type="text" class="form-control" id="" placeholder="Enter word..." #term>
-            <button type="submit" class="btn btn-primary">
+            <input type="text" class="form-control" id="" placeholder="Enter word..." #term style="width: 320px">
+            <button type="submit" class="btn btn-info btn-fill">
                 <i class="fa" [ngClass]="{'fa-search': !isBusy, 'fa-spinner': isBusy, 'fa-spin': isBusy}"></i> Search
             </button>
         </form>
@@ -20,7 +20,7 @@
                             <i class="fa fa-star text-warning"></i> Add to collection
                         </button>
                         
-                        <a [href]="result.Source" target="_blank">Go to webiste</a>
+                        <a [href]="result.Source" target="_blank"><i class="fa fa-globe"></i>  Go to webiste</a>
                     </span>
                     <div [innerHTML]="result.Content"></div>
                 </card>

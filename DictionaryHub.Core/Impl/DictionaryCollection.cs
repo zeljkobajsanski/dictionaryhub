@@ -11,7 +11,8 @@ namespace DictionaryHub.Core.Impl
             {
                 new OnlineRecnik(),
                 new MerriamWebster(),
-                new TheFreeDictionary()
+                new TheFreeDictionary(),
+                new GoogleTranslate()
             };
         }
     }

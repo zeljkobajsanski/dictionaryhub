@@ -364,7 +364,7 @@ body > .navbar-collapse:before {
 }
 .sidebar:before,
 body > .navbar-collapse:before {
-  opacity: .33;
+  opacity: .70;
   background: #000000;
 }
 .sidebar:after,
