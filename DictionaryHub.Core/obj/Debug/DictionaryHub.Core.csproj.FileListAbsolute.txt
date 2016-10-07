@@ -1,8 +1,0 @@
-C:\Files\Development\Projects\Private\DictionaryHub\DictionaryHub.Core\bin\Debug\DictionaryHub.Core.dll
-C:\Files\Development\Projects\Private\DictionaryHub\DictionaryHub.Core\bin\Debug\DictionaryHub.Core.pdb
-C:\Files\Development\Projects\Private\DictionaryHub\DictionaryHub.Core\obj\Debug\DictionaryHub.Core.csprojResolveAssemblyReference.cache
-C:\Files\Development\Projects\Private\DictionaryHub\DictionaryHub.Core\obj\Debug\DictionaryHub.Core.dll
-C:\Files\Development\Projects\Private\DictionaryHub\DictionaryHub.Core\obj\Debug\DictionaryHub.Core.pdb
-C:\Files\Development\Projects\Private\DictionaryHub\DictionaryHub.Core\bin\Debug\HtmlAgilityPack.dll
-C:\Files\Development\Projects\Private\DictionaryHub\DictionaryHub.Core\bin\Debug\HtmlAgilityPack.pdb
-C:\Files\Development\Projects\Private\DictionaryHub\DictionaryHub.Core\bin\Debug\HtmlAgilityPack.xml

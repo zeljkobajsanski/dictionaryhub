@@ -1,2 +1,6 @@
 /DictionaryHub.Web/obj
 /DictionaryHub.Web/bin
+/DictionaryHub.Core/obj
+/DictionaryHub.Core/bin
+/packages
+/DictionaryHub.v12.suo
