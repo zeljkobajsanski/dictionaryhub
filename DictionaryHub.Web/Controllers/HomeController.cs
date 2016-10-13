@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
 using DictionaryHub.Core.Contracts;
@@ -31,6 +32,13 @@ namespace DictionaryHub.Web.Controllers
         {
             var results = _searcher.FindWord(word);
             return Json(results, JsonRequestBehavior.AllowGet);
+        }
+
+        [Authorize]
+        public void Test()
+        {
+            var claimsIdentity = User.Identity as ClaimsIdentity;
+            
         }
     }
 }
